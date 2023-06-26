@@ -17,12 +17,12 @@ python3 260
 ```
 yielded the following result:
 ```
-Mon average maximum temperature 14.0 average minimum temperature 6.3
-Tue average maximum temperature 13.8 average minimum temperature 6.3
-Wed average maximum temperature 13.8 average minimum temperature 6.3
-Thu average maximum temperature 13.9 average minimum temperature 6.3
-Fri average maximum temperature 13.8 average minimum temperature 6.3
-Sat average maximum temperature 13.9 average minimum temperature 6.3
-Sun average maximum temperature 13.9 average minimum temperature 6.3
+Mon average maximum temperature 13.7 average minimum temperature 5.4
+Tue average maximum temperature 13.6 average minimum temperature 5.3
+Wed average maximum temperature 13.6 average minimum temperature 5.4
+Thu average maximum temperature 13.6 average minimum temperature 5.4
+Fri average maximum temperature 13.6 average minimum temperature 5.4
+Sat average maximum temperature 13.6 average minimum temperature 5.4
+Sun average maximum temperature 13.6 average minimum temperature 5.4
 ```
 So, for some reason Monday is the warmest day of the week in De Bilt! It's very likely that's a coincedence.
