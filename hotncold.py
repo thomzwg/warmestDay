@@ -58,8 +58,8 @@ df['weekday'] = pd.to_datetime(df['YYYYMMDD'], format='%Y%m%d').dt.dayofweek
 # Compute mean values per weekday
 WEEKDAYS = ('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun')
 for weekday_number, weekday in enumerate(WEEKDAYS):
-    avgTX = (df[df['weekday'] == weekday_number]['TX'].mean() / 10).round(1)
-    avgTN = (df[df['weekday'] == weekday_number]['TN'].mean() / 10).round(1)
+    avg_TX = df[df['weekday'] == weekday_number]['TX'].mean(numeric_only=True)
+    avg_TN = df[df['weekday'] == weekday_number]['TN'].mean(numeric_only=True)
 
-    print(f"{weekday} average maximum temperature {avgTX} "
-          f"average minimum temperature {avgTN}")
+    print(f"{weekday} average maximum temperature {avg_TX / 10:.1f} "
+          f"average minimum temperature {avg_TN / 10:.1f}")
